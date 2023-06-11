@@ -7,7 +7,7 @@ def main():
     There will be some editing of the code in this part of the workshop
     showing how to declare, assign and call a variable.
     '''
-    print(input("What's your name? > "))
-
+    #print(input("What's your name? > "))
+    player_name = input("what's your name? >")
 if __name__ == '__main__':
     main()
