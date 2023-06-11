@@ -9,5 +9,16 @@ def main():
     '''
     #print(input("What's your name? > "))
     player_name = input("what's your name? >")
-if __name__ == '__main__':
-    main()
+
+    if __name__ == '__main__':
+        print(f"Your name is {player_name}")
+        
+        what = "knight"
+        print(f"Your name is {player_name}. You are a {what}.")
+
+    player_name = "Grace"
+    what = "knight"
+    f"Hello, {player_name}"
+    f"Hello, {player_name}. You are a {what}."    
+    
+main()
